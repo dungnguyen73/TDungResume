@@ -1,4 +1,11 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
 
+<body>
 @REDACTED=true
 @NAME=Nguyễn Tấn Dũng||Hidden Name
 @EMAIL=nguyentandung037@gmail.com|| dung.nguyen42@hcmut.edu.vn
@@ -117,3 +124,5 @@ Project description:  An e-commerce store that provides customers with a conveni
 <span class="indent">**TOFAS National Programming Contest: Top 25**</span>
 
 <span class="indent">**Star Awards 2023 - HCMC cluster final: Third Prize**</sp
+
+</body>
