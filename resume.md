@@ -3,6 +3,159 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="resume.css">
+    <style>
+        /* You can poke around this CSS if you want to customize your formatting / styling further */
+/* You can even import custom fonts! */
+
+@import url('https://www.resume.lol/fonts/cm/fonts.css');
+
+/* meta */
+body {
+    font-family: "Computer Modern Serif", serif;
+    font-size: 11pt;
+    font-weight: 500;
+}
+
+.spacer {
+    margin: 0px auto;
+}
+
+/* styling content */
+h1, h2, h3, h4, p, a, li {
+    color: black;
+}
+
+h2 {
+    padding: 0;
+    margin-bottom: 5pt;
+    margin-top: 5pt;
+}
+
+h3, h4 {
+    margin: 0;
+    margin-left: 0.15in;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 32pt;
+    margin: 0;
+    padding: 0;
+    margin-top: -0.1in;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+h2 {
+    border-bottom: 1px solid #000000;
+    text-transform: uppercase;
+    font-size: 11pt;
+    font-weight: normal;
+}
+
+h2::first-letter {
+    font-size: 14pt;
+}
+
+h3 {
+    display: flex;
+    font-size: 11pt;
+    padding: 0;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.indent {
+    margin-left: 0.15in;
+    /* margin-bottom: px; */
+}
+
+.tech-stack {
+    font-style: normal;
+    font-weight: normal;
+}
+
+h4 {
+    display: flex;
+    font-size: 11pt;
+    font-weight: normal;
+    font-style: italic;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: space-between;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-underline-offset: 4px;
+}
+
+ul {
+    margin: 1pt 0;
+    margin-left: 0.3in;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 11pt;
+    
+}
+ul > li {
+    margin-bottom: 1pt;
+}
+
+ul > li:first-child {
+    padding-top: -4px;
+}
+
+ul > li:last-child {
+    margin-bottom: 5pt;
+}
+
+
+/* header info content */
+.headerInfo > ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0px auto 0pt !important;
+    margin-top: -1pt;
+    padding: 0;
+}
+
+.headerInfo > ul > li {
+    display: inline;
+    white-space: pre;
+    list-style-type: none;
+}
+
+.headerInfo > ul > li:not(:last-child) {
+    margin-right: 8px;
+}
+
+.headerInfo > ul > li:not(:last-child):after {
+    content: "|";
+    margin-left: 8px;
+}
+
+.cef a{
+    text-decoration: none;
+}
+.cef span{
+  
+    
+}
+@page {
+  size: letter;
+  margin: 0.5in;
+}
+
+    </style>
 </head>
 
 <body>
