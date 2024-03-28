@@ -2,3 +2,13 @@
   size: letter;
   margin: 0.5in;
 }
+@media screen and (min-width: 768px) {
+  body {
+    width: 21cm; /* A4 width */
+    height: 29.7cm; /* A4 height */
+    margin: auto;
+    font-size: 14px; /* Adjust font size as needed */
+    padding: 2cm; /* Add padding for content */
+   
+  }
+}

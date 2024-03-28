@@ -12,6 +12,7 @@ body {
 
 .spacer {
     margin: 0px auto;
+    /* margin-left: 0.55in; */
 }
 
 /* styling content */
@@ -84,6 +85,7 @@ h4 {
 p {
     margin: 0;
     padding: 0;
+    
 }
 
 a {
