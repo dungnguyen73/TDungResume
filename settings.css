@@ -9,6 +9,11 @@
     margin: auto;
     font-size: 14px; /* Adjust font size as needed */
     padding: 2cm; /* Add padding for content */
-   
+    margin-bottom: 30px;
+    /* margin-top: 20px; */
   }
+}
+
+body{
+  margin-bottom: 30px;
 }
